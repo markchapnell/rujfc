@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Retford United Juniors FC</title>
+</head>
+<body>
+    <div id="sideMenu" class="sidemenu" onmouseleave="closeMenu()">
+        <ul>
+        <li ><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Players</a></li>
+        <li><a href="#">Contact</a></li>     
+        </ul>
+        <a href="#"><img src="images/fb_logo.png" alt="Facebook" class="social_logo"></a>
+        <a href="#"><img src="images/tt_logo.png" alt="TikTok" class="social_logo"></a>
+        <img src="images/club_badge.png" alt="Retford United Juniors FC" class="small_badge">
+    </div>
+    <img 
+        src="arrow.svg" 
+        alt="Right Arrow" 
+        class="expand-arrow" 
+        onmouseover="openMenu()"
+        
+        id="expandArrow"
+    />
+    
+    <div id="main" class="main" onclick="closeMenu()">
+        <img src="images/club_badge.png" alt="Retford United Juniors FC" class="badge">
+        <div class="values">
+            <h1>Respect</h1>
+            <h1>Effort</h1>
+            <h1>Fun</h1>
+        </div>
+        <div class="address">
+        <h2>Oaklands Playing Fields</h2>
+        <h2>Caledonian Road</h2>
+        <h2>Retford</h2>
+        <h2>Notts, DN22 7EQ</h2>
+        <h4>&copy 2022 Retford United Juniors FC. All Rights Reserved | Privacy Policy | Web Design by Mark Chapnell</h4>
+        </div>
+    </div>
+    
+</body>
+</html>
